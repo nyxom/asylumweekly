@@ -1,5 +1,5 @@
 title: Asylum Weekly
 description: 100% factual and unbiased news regarding the hottest remake of Asylum, all of our sources are fact checked by real patriots who want real news.
-url: https://nyxom.github.io/asylumweekly/
+url: https://nyxom.github.io/asylumweekly
 markdown: kramdown
 permalink: /news/:year-:month-:day-:slug/
