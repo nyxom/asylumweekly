@@ -499,12 +499,9 @@ a {
 }
 
 .issue-story--brief .issue-story__media {
-  width: clamp(210px, 34%, 285px);
-}
-
-.issue-story--tuck-media .issue-story__media {
-  margin-top: -3.25rem;
-  margin-bottom: 0.75rem;
+  width: clamp(190px, 30%, 250px);
+  margin-top: 0.15rem;
+  margin-bottom: 0.85rem;
 }
 
 .issue-story__media img {
@@ -632,10 +629,6 @@ a {
 
   .issue-story h3 {
     max-width: none;
-  }
-
-  .issue-story--tuck-media .issue-story__media {
-    margin-top: 1rem;
   }
 
   .issue-package__lead {

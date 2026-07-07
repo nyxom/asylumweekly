@@ -6,7 +6,7 @@ deck: Recap of the Week
 summary: Kreals goes fishing, Asylum players fed Sneed, Kevin Framed sightings spread, Crimson falls apart, and Teamplayers flood fed events with Ifrits.
 image: /assets/newsletters/asylum-weekly-issue-01-cover.png
 image_alt: Asylum Weekly Issue 01 cover featuring Kreals, an Ifrit, and the Sneed teaser
-show_hero: false
+show_hero: true
 editorial_layout: true
 description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks during the first week of Asylum Redux.
 ---
@@ -51,7 +51,7 @@ description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks du
     <p>Yet, attacks seemed to have died down. However, the responsible party has hinted at a new production of "Sneedflix" titled "Sneed vs. the World." Asylum Weekly will keep you all apprised.</p>
   </section>
 
-  <section class="issue-story issue-story--brief issue-story--media-right issue-story--tuck-media">
+  <section class="issue-story issue-story--brief issue-story--media-right">
     <div class="issue-story__label section-label">Article 03 · Island Life</div>
     <h3>Kevin Framed, Myth or Man?</h3>
     <figure class="issue-story__media">
