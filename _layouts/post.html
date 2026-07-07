@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="newsletter-shell">
+<main class="newsletter-shell{% if page.editorial_layout %} newsletter-shell--editorial{% endif %}">
   <header class="issue-header">
     <a class="home-link" href="{{ '/' | relative_url }}">Home</a>
     <div class="issue-meta">{{ page.date | date: "%d %B %Y" }} • Issue {{ page.issue }}</div>
@@ -9,7 +9,7 @@ layout: default
     <p class="issue-dek">{{ page.deck }}</p>
   </header>
 
-  {% if page.image %}
+  {% if page.image and page.show_hero != false %}
   <figure class="issue-hero">
     <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}">
   </figure>

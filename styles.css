@@ -311,6 +311,10 @@ a {
   padding: 2rem 0 3rem;
 }
 
+.newsletter-shell--editorial {
+  width: min(calc(100% - 2rem), 940px);
+}
+
 .issue-header {
   padding: 1rem 0 1.5rem;
   border-bottom: 1px solid var(--line);
@@ -402,70 +406,100 @@ a {
 }
 
 .issue-package {
-  display: grid;
-  gap: 1.5rem;
+  --story-gap: clamp(1.15rem, 3vw, 2rem);
 }
 
 .issue-package__lead {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--line);
+  padding: 0.5rem 0 1.75rem;
+  border-bottom: 3px double var(--line);
+  text-align: center;
 }
 
-.issue-package__lead h2 {
-  margin: 0 0 0.65rem;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 0.98;
-}
-
-.issue-package__lead p {
-  margin: 0;
-  max-width: 44rem;
+.issue-package__kicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+  font-family: var(--ui-font);
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
   color: var(--ink-soft);
 }
 
+.issue-package__kicker span + span::before {
+  content: "◆";
+  margin-right: 0.75rem;
+  font-size: 0.5rem;
+  color: var(--accent-strong);
+  vertical-align: 0.12em;
+}
+
+.issue-package__lead h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+}
+
+.issue-package__lead p {
+  max-width: 42rem;
+  margin: 0 auto;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
 .issue-story {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(240px, 0.85fr);
-  gap: 1.35rem;
-  align-items: start;
-  padding: 1.25rem 0;
-  border-top: 1px solid rgba(47, 55, 69, 0.9);
+  display: flow-root;
+  padding: clamp(1.75rem, 4vw, 2.75rem) 0;
+  border-bottom: 1px solid rgba(47, 55, 69, 0.9);
 }
 
-.issue-story:first-of-type {
-  border-top: 0;
-  padding-top: 0;
+.issue-story:last-child {
+  border-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
-.issue-story--reverse {
-  grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
-}
-
-.issue-story--reverse .issue-story__media {
-  order: 1;
-}
-
-.issue-story--reverse .issue-story__text {
-  order: 2;
-}
-
-.issue-story__text {
-  min-width: 0;
+.issue-story h3 {
+  max-width: 18ch;
+  margin-bottom: 1.15rem;
+  font-size: clamp(1.85rem, 4.4vw, 3rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
 }
 
 .issue-story__label {
-  margin-bottom: 0.55rem;
-}
-
-.issue-story__text p:first-of-type,
-.issue-story__text blockquote:first-of-type {
-  margin-top: 0;
+  margin-bottom: 0.65rem;
+  color: var(--accent-strong);
 }
 
 .issue-story__media {
+  width: clamp(230px, 38%, 330px);
+  margin: 0.25rem 0 var(--story-gap) var(--story-gap);
   background: var(--card);
   border: 1px solid var(--line);
   padding: 0.55rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.issue-story--media-right .issue-story__media {
+  float: right;
+}
+
+.issue-story--media-left .issue-story__media {
+  float: left;
+  margin-right: var(--story-gap);
+  margin-left: 0;
+}
+
+.issue-story--feature .issue-story__media {
+  width: clamp(270px, 45%, 390px);
+}
+
+.issue-story--brief .issue-story__media {
+  width: clamp(210px, 34%, 285px);
 }
 
 .issue-story__media img {
@@ -473,11 +507,29 @@ a {
 }
 
 .issue-story__media .caption {
-  margin-top: 0.5rem;
+  margin: 0.6rem 0.15rem 0.1rem;
+  line-height: 1.35;
+}
+
+.issue-story__media .caption a {
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+.issue-story > p {
+  line-height: 1.72;
+}
+
+.issue-story__standfirst {
+  color: var(--ink-soft);
+  font-size: 1.18rem !important;
+  line-height: 1.5 !important;
+  font-style: italic;
 }
 
 .issue-story__quote {
-  margin: 1rem 0 1.2rem;
+  overflow: hidden;
+  margin: 1.2rem 0 1.35rem;
 }
 
 .issue-story__quote p {
@@ -564,10 +616,21 @@ a {
   }
 
   .float-media,
-  .float-media--left {
+  .float-media--left,
+  .issue-story__media,
+  .issue-story--feature .issue-story__media,
+  .issue-story--brief .issue-story__media {
     float: none;
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem 0 1.25rem;
+  }
+
+  .issue-story h3 {
+    max-width: none;
+  }
+
+  .issue-package__lead {
+    padding-top: 0.25rem;
   }
 
   .newsletter-shell {
