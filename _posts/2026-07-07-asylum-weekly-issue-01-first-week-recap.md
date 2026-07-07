@@ -3,7 +3,7 @@ layout: post
 title: Asylum Weekly Issue 01
 issue: 01
 deck: Recap of the Week
-summary: Kreals goes fishing, Sneed-fed Asylum players melt down, Kevin Framed sightings spread, Crimson falls apart, and Teamplayers flood fed events with Ifrits.
+summary: Kreals goes fishing, Asylum players fed Sneed, Kevin Framed sightings spread, Crimson falls apart, and Teamplayers flood fed events with Ifrits.
 image: /assets/newsletters/asylum-weekly-issue-01-kreals.jpg
 image_alt: Asylum Weekly Issue 01 article page
 show_hero: false
@@ -82,13 +82,13 @@ description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks du
 
   <section class="issue-story issue-story--brief issue-story--media-right">
     <div class="issue-story__label section-label">Article 05 · Police Blotter</div>
-    <h3>Teamplayers drag ten Ifrits and still miss their spikes.</h3>
+    <h3>Teamplayers induce suicide among spike-deficient cops.</h3>
     <figure class="issue-story__media">
       <a href="{{ '/assets/newsletters/asylum-weekly-issue-01-ifrit.jpg' | relative_url }}">
         <img src="{{ '/assets/newsletters/asylum-weekly-issue-01-ifrit.jpg' | relative_url }}" alt="Ifrit at a fed event">
       </a>
       <figcaption class="caption">An Ifrit at a federal event. <a href="{{ '/assets/newsletters/asylum-weekly-issue-01-ifrit.jpg' | relative_url }}">View full image</a></figcaption>
     </figure>
-    <p>Asylum Weekly has learned that Teamplayers, under the hand of Olympus staff member "WALT", have been pulling upwards of ten Ifrits into recent fed events and acting personally wounded that the spike-strip change now prevents cops from deploying them out of a patrol car. Witnesses describe the group as equal parts organized and aggrieved, roaring into the area like a moving dealership before immediately lamenting that the old road-trap routine is gone. In classic Asylum fashion, the complaint was nearly as loud as the engine noise.</p>
+    <p>In typical Asylum fashion, the Server Leadership has removed spike-strips from being deployed from APD vehicles. Naturally, this has had no consequences and Teamplayers have kindly decided to run 10-man 10-Ifrit groups. Asylum Weekly sources report seeing 'Austin M.' himself get gangbanged by five black Ifrits. Unfortunately, no amount of crying seems to be bringing a timely resolution to this plight. We're stuck with this situation for the long run.</p>
   </section>
 </div>
