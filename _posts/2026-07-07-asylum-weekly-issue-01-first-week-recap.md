@@ -51,7 +51,7 @@ description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks du
     <p>Yet, attacks seemed to have died down. However, the responsible party has hinted at a new production of "Sneedflix" titled "Sneed vs. the World." Asylum Weekly will keep you all apprised.</p>
   </section>
 
-  <section class="issue-story issue-story--brief issue-story--media-right">
+  <section class="issue-story issue-story--brief issue-story--media-right issue-story--tuck-media">
     <div class="issue-story__label section-label">Article 03 · Island Life</div>
     <h3>Kevin Framed, Myth or Man?</h3>
     <figure class="issue-story__media">
