@@ -35,6 +35,7 @@ description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks du
       <p>No Comment.</p>
     </blockquote>
     <p>Asylum Weekly has received unconfirmed reports that the nature of his ban pertained to scripting or similar behaviour, but that's all we've managed to uncover regarding this situation for now. The Asylum Weekly editorial staff is transparent in their relation with .Kreals, as he was a former gangmate of many of the editors. We truly wish him the best and hope he returns soon with his name cleared.</p>
+    <p>.Chris Peacock and Wubgub have also received permanent scripting bans alongside Kreals, after visiting the Asylum Exchange with their barley! They will be missed, but never forgotten.</p>
   </section>
 
   <section class="issue-story issue-story--media-left">
@@ -90,5 +91,7 @@ description: Asylum Weekly Issue 01 covering the .Kreals ban and BBNB attacks du
       <figcaption class="caption">An Ifrit at a federal event. <a href="{{ '/assets/newsletters/asylum-weekly-issue-01-ifrit.jpg' | relative_url }}">View full image</a></figcaption>
     </figure>
     <p>In typical Asylum fashion, the Server Leadership has removed spike-strips from being deployed from APD vehicles. Naturally, this has had no consequences and Teamplayers have kindly decided to run 10-man 10-Ifrit groups. Asylum Weekly sources report seeing 'Austin M.' himself get gangbanged by five black Ifrits. Unfortunately, no amount of crying seems to be bringing a timely resolution to this plight. We're stuck with this situation for the long run.</p>
+
+   <p>It's time to ask ourselves in this time of crisis if this situation would have occurred if such legendary figures as Fried Rice and Junke were allowed to take the reins of the APD as Captain... this newsletter is unbiased.</p>
   </section>
 </div>
