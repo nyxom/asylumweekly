@@ -16,9 +16,15 @@ description: Asylum Weekly Issue 02 covering APD leadership shifts, NSF footage,
     <p>The second week of Redux brought APD promotions, NSF sightings, reckless gambling, a SWAT reboot, and the usual struggle to tell menace from washed roleplay.</p>
   </section>
 
-  <section class="issue-story issue-story--feature">
+  <section class="issue-story issue-story--feature issue-story--media-right">
     <div class="issue-story__label section-label">Article 01 · Lead Story</div>
     <h3>The Dragon of Altis</h3>
+    <figure class="issue-story__media">
+      <a href="{{ '/assets/newsletters/asylum-weekly-issue-02-dragon-of-altis.png' | relative_url }}">
+        <img src="{{ '/assets/newsletters/asylum-weekly-issue-02-dragon-of-altis.png' | relative_url }}" alt="APD Captain Fried Rice standing in APD headquarters">
+      </a>
+      <figcaption class="caption">Fried Rice in full command posture at APD headquarters. <a href="{{ '/assets/newsletters/asylum-weekly-issue-02-dragon-of-altis.png' | relative_url }}">View full image</a></figcaption>
+    </figure>
     <p class="issue-story__standfirst">Fried Rice climbs to the top of the APD ladder as command staff reshuffles around him.</p>
     <p>Fried Rice, also known as Chow Mein and a former member of the infamous Dragons gang, has risen to the pinnacle of the Altis Police Department's ranking structure as the official "Admin Captain", a role formerly known as Chief of Police. Fried Rice has a well-chronicled history in the APD and Asylum in general, having polished his kneepads on DarkKnight since at least 2016.</p>
     <p>In addition, former Captain Bilbo Baggins has resumed his post and filled out the roster of active Captains alongside Rocketneo and Fried Rice. Although many remember Bilbo Baggins as a bureaucratic leech sucking the will to live out of the APD's general populace, recent reports indicate that he has discovered an aspect of humanity and is actually quite amicable.</p>
