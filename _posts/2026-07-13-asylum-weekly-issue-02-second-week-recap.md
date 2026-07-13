@@ -4,7 +4,9 @@ title: Asylum Weekly Issue 02
 issue: 02
 deck: Command Changes and Cartel Reboots
 summary: Fried Rice climbs to Admin Captain, Junke turns up on NSF footage, William nukes his bankroll, SWAT gets new commanders, and NSF fills with former Crimson names.
-show_hero: false
+image: /assets/newsletters/asylum-weekly-issue-02-cover.png
+image_alt: Asylum Weekly Issue 02 cover featuring Fried Rice, NSF, and Junke
+show_hero: true
 editorial_layout: true
 description: Asylum Weekly Issue 02 covering APD leadership shifts, NSF footage, William's gambling collapse, and the latest faction reshuffles on Asylum Redux.
 ---
@@ -58,9 +60,21 @@ description: Asylum Weekly Issue 02 covering APD leadership shifts, NSF footage,
     <p>Reeling from this loss, he proceeded to gamble away the remains of his considerable fortune. Asylum Weekly sources report he went from a staggering $22 million net worth to a mere $900,000. One could ponder how a man of his size managed to fall through such small slots.</p>
   </section>
 
-  <section class="issue-story issue-story--brief">
+  <section class="issue-story issue-story--brief issue-story--media-right">
     <div class="issue-story__label section-label">Article 04 · APD Desk</div>
     <h3>SWAT, Special Weapons and Tom.</h3>
+    <figure class="issue-story__media">
+      <a href="{{ '/assets/newsletters/SWAT.png' | relative_url }}">
+        <img src="{{ '/assets/newsletters/SWAT.png' | relative_url }}" alt="SWAT-related gameplay screenshot">
+      </a>
+      <figcaption class="caption">Early field evidence from the SWAT desk. <a href="{{ '/assets/newsletters/SWAT.png' | relative_url }}">View full image</a></figcaption>
+    </figure>
+    <figure class="issue-story__media">
+      <a href="{{ '/assets/newsletters/junke-banana.png' | relative_url }}">
+        <img src="{{ '/assets/newsletters/junke-banana.png' | relative_url }}" alt="Illustration of Junke holding a banana">
+      </a>
+      <figcaption class="caption">A staff artist's rendering of Commander Junke. <a href="{{ '/assets/newsletters/junke-banana.png' | relative_url }}">View full image</a></figcaption>
+    </figure>
     <p>APD Lieutenant Junke and APD Sergeant Tom have been named SWAT Commanders. Asylum Weekly sources report that Junke certainly meets the definition of special, but it remains to be seen whether SWAT can be transformed from its formerly cosmetic role into something more useful.</p>
     <p>If you're interested in applying to join this particular short bus, we at the Asylum Weekly encourage you to reach out to either SWAT Commander and wish you luck in acquiring a slot.</p>
   </section>
