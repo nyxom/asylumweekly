@@ -91,4 +91,23 @@ description: Asylum Weekly Issue 02 covering APD leadership shifts, NSF footage,
     <p>Asylum Gaming is not the only thing getting rebooted. NSF gang leader Bera has graciously allowed homeless and washed former Crimson members Junke, Carter, Cudi, Tachophobia, and Shawn to take up residence in the NSF gang.</p>
     <p>These roleplayers can often be spotted on the coast, searching for fish to sell back to the market. With such a nightmarish roster, it is a wonder they can even cap a cartel, much less achieve a coveted Domination win.</p>
   </section>
+
+  <section class="issue-story issue-story--media-right">
+    <div class="issue-story__label section-label">Article 06 · Culture Desk</div>
+    <h3>The Volume Strike Backs</h3>
+    <figure class="issue-story__media issue-story__media--video">
+      <div class="video-embed">
+        <iframe
+          src="https://streamable.com/e/4z55vd"
+          title="The Volume Strike Backs clip"
+          loading="lazy"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <figcaption class="caption">The latest horn clip as heard across Altis. <a href="https://streamable.com/4z55vd">Watch on Streamable</a></figcaption>
+    </figure>
+    <p>A new horn has recently been added, free of charge and available to all players and factions. Just make sure you have your earplugs in, because when the bass hits on this soundbite, it does not leave any survivors.</p>
+    <p>Asylum Weekly sources report an astounding 76% increase in hearing damage and game-volume reduction after this latest banger from the Asylum Leadership team.</p>
+  </section>
 </div>
