@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% assign meta_title = page.title | default: site.title %}
   {% assign meta_description = page.description | default: site.description %}
+  {% assign double_baseurl = site.baseurl | append: site.baseurl %}
+  {% assign meta_page_url = page.url | absolute_url | replace: double_baseurl, site.baseurl %}
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ meta_description }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ meta_page_url }}">
 
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ meta_title }}">
   <meta property="og:description" content="{{ meta_description }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ meta_page_url }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% assign meta_image_url = page.image | absolute_url | replace: double_baseurl, site.baseurl %}
+  <meta property="og:image" content="{{ meta_image_url }}">
   {% if page.image_alt %}
   <meta property="og:image:alt" content="{{ page.image_alt }}">
   {% endif %}
@@ -25,7 +28,7 @@
   <meta name="twitter:title" content="{{ meta_title }}">
   <meta name="twitter:description" content="{{ meta_description }}">
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:image" content="{{ meta_image_url }}">
   {% endif %}
 
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
