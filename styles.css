@@ -508,6 +508,25 @@ a {
   border: 1px solid var(--line);
 }
 
+.issue-story__media--video {
+  width: clamp(260px, 42%, 400px);
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0d1015;
+  border: 1px solid var(--line);
+}
+
+.video-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .issue-story__media .caption {
   margin: 0.6rem 0.15rem 0.1rem;
   line-height: 1.35;
@@ -620,6 +639,7 @@ a {
   .float-media,
   .float-media--left,
   .issue-story__media,
+  .issue-story__media--video,
   .issue-story--feature .issue-story__media,
   .issue-story--brief .issue-story__media {
     float: none;

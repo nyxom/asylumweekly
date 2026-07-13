@@ -33,7 +33,9 @@ layout: default
       </article>
 
       <article class="feature-card">
+        {% if latest.image %}
         <img src="{{ latest.image | relative_url }}" alt="{{ latest.image_alt }}">
+        {% endif %}
         <div class="card-meta">{{ latest.date | date: "%d %B %Y" }} • Issue {{ latest.issue }}</div>
         <h3 class="feature-card__title"><a class="issue-link" href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h3>
         <p>{{ latest.deck }}</p>
